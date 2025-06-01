@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h2>Simple Quiz</h2>
+        <p id="question">Question here</p>
+        <div id="options">
+            <div class="option">
+                <input type="radio" name="opt" id="opt1" value="">
+                <label for="opt1" id="label1">Option 1</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="opt" id="opt2" value="">
+                <label for="opt2" id="label2">Option 2</label>
+            </div>
+            <div class="option">
+                <input type="radio" name="opt" id="opt3" value="">
+                <label for="opt3" id="label3">Option 3</label>
+            </div>
+        </div>
+        <button onclick="restart()" id="restartBtn" style="display:none;">Restart Quiz</button> 
+        <button onclick="next()" id="nextBtn">Next</button>
+        <p id="result"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
