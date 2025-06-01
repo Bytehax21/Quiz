@@ -1,4 +1,5 @@
-// filepath: c:\Users\HAROON TRADERS\Desktop\Quiz\index.js
+
+
 const questions = [
   {
     q: "What does CPU stand for?",
